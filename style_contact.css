@@ -1,0 +1,186 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-y: hidden;
+}
+.background{
+    z-index: -1;
+    position: absolute;
+    height: 84vh;
+    width: 40vw;
+    top:20vh ;
+    left: 58vw;
+}
+
+/* .nav1{
+    
+} */
+.ul1{
+    display: flex;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 2vw;
+    position: absolute; 
+    left: 45vw;
+    top: 3vh;
+    
+}
+.navLi{
+    opacity: 50%;
+    color: black;
+    margin-top: 6vh;
+    margin-left: 3vw;
+    list-style: none;
+    transition: all .5s ease-in-out ;
+}
+.navLink{
+    color: black;
+}
+.navLi:hover{
+    transform: translateY(15px);
+    transform: scale(1.25);
+    opacity: 70%;
+    margin-right: 8vh;
+}
+a:visited,a:link{
+    text-decoration: none;
+
+}
+.sv{
+    position: absolute;
+    top: 5vh;
+    left: 8vh;
+    opacity: 70%;
+    height: 8vh;
+    mix-blend-mode: color;
+}
+.container3{
+    display: inline;
+    position: absolute;
+    top: 20vh;
+    left: 10vw;
+}
+
+.CM{
+    font-size: 4.5vw;
+    font-family: "Ubuntu", sans-serif;
+    
+}
+.Con{
+    color: rgba(33, 33, 33, 0.901);
+    
+}
+.me{
+    color:#b7a5ef ;
+}
+.underline{
+    border: 0.1rem solid #f4b364 ;
+    border-radius: 100px;
+     width: 6vw;
+}
+.container4{
+    position: absolute;
+    height: 47vh;
+    width: 40vw;
+    top: 35vh;
+    left: 8vw;
+    border: #f4b364 solid 2px;
+    border-radius: 5vh;
+}
+.F-Name{
+    position: relative;
+    top: 3vh;
+    left: 2vw;
+    height: 5vh;
+    width: 25vw;
+    border: solid #b7a5ef  2px ;
+    border-radius: 100vh;
+    /* text-align: center; */
+    font-size: 1vw;
+}
+.F-Email{
+    position: relative;
+    top: 5vh;
+    left: 2vw;
+    height: 5vh;
+    width: 25vw;
+    border: solid #b7a5ef  2px ;
+    border-radius: 100vh;
+    /* text-align: center; */
+    font-size: 1vw;
+}
+.F-Message{
+    position: relative;
+    top: 7.5vh;
+    left: 2vw;
+    height: 20vh;
+    width: 25vw;
+    border: solid #b7a5ef  2px ;
+    border-radius: 3vh;
+    /* text-align: center; */
+    font-size: 1vw;
+
+}
+.F-Message::placeholder{
+    position: relative;
+    /* top: 1vh; */
+}
+.F-Submit{
+    position: relative;
+    top: 7.5vh;
+    left: 2vw;
+    height: 5vh;
+    width: 7vw;
+    border: solid #b7a5ef  2px ;
+    border-radius: 3vh;
+    font-size: 1vw;
+}
+.F-Submit:hover{
+    outline: none;
+    border: solid #5e4a9b 2px;
+}
+.form1{
+    /* padding-top: 1vh; */
+    padding-left: 2vh;
+    transition: all 0.3s ease-in-out;
+}
+.form1:hover{
+    border: solid #5e4a9b 2px;
+}
+.form1::placeholder{
+    font-family: "DM Sans", sans-serif;
+    }
+.form1:focus{
+    outline: none;
+    border: solid #5e4a9b 2px;
+}
+.container5{
+    display: flex;
+    /* border: black 2px solid; */
+    position: absolute;
+    top: 85vh;
+    height: 10vh;
+    width: 40vw;
+    left: 8vw;
+    align-items: center ;
+    justify-content: center;
+
+    
+    
+    
+}
+.logo{
+    opacity: 70%;
+    height: 5vh;
+    padding-left: 1.25vw;
+    padding-right: 1.25vw;
+    transition: all 0.5s ease-in-out;
+}
+.logo:hover{
+opacity: 100%;
+transform: scale(1.5);
+}
+

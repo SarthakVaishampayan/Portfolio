@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* width: 100vw; */
+}
+.container1{
+}
+.cover{
+    position: absolute;
+    width:100vw;
+    z-index: -1;
+}
+.top{
+    opacity: 0%;
+    transition: 1s 0.5s;
+    
+}
+.top:hover{
+    opacity: 70%;
+    
+}
+.bottom{
+  
+}
+.nav1{
+    position: absolute; 
+    left: 5vw;
+}
+.ul1{
+    display: flex;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 1.50rem;
+    
+}
+.navLi{
+    opacity: 30%;
+    color: white;
+    margin-top: 6vh;
+    margin-left: 3vw;
+    list-style: none;
+    transition: all .5s ease-in-out ;
+}
+.navLink{
+    color: white;
+}
+.navLi:hover{
+    transform: translateY(15px);
+    /* transform: scaleX(1.25); */
+    transform: scale(1.25);
+    /* transform-origin: 100% 100% 0px; */
+    opacity: 70%;
+    margin-right: 8vh;
+    /* margin-left: 5vh; */
+}
+.sv{
+    text-shadow: 50px;
+    position: absolute;
+    top: 3vh;
+    right: 5vh;
+    opacity: 70%;
+    height: 6vh;
+}
+.HR1{
+    position: relative; 
+    border: none;
+    top: 63.5vw; 
+    background-color: black; 
+    /* height: 70px; */
+}
+.container3{
+    width: 100vw;
+    position: absolute;
+    top: 67vw;
+    display: flex;
+    
+    justify-content: center;
+
+}
+a:visited,a:link{
+    text-decoration: none;
+
+}
